@@ -1,0 +1,113 @@
+/* src/components/SurveyInterest.css */
+.survey-interest {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+  }
+  
+  .back-arrow {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 20px;
+    top: 62px;
+    cursor: pointer;
+  }
+  
+  .progress-bar {
+    position: absolute;
+    width: 180px;
+    height: 8px;
+    left: calc(50% - 180px/2 - 0.5px);
+    top: 62px;
+    background: #FFE9F1;
+    border-radius: 50px;
+  }
+  
+  .survey-interest .progress {
+    position: absolute;
+    width: 100px;
+    height: 8px;
+    left: calc(50% - 80px/2 - 50.5px);
+    top: 0;
+    background: #FFB933;
+    border-radius: 50px;
+  }
+  
+  h1 {
+    position: absolute;
+    width: 313px;
+    height: 42px;
+    left: calc(50% - 313px/2 + 13px);
+    top: 116px;
+    font-family: 'Ownglyph meetme';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .interests-container {
+    position: absolute;
+    width: 325px;
+    left: calc(50% - 325px/2);
+    top: 232px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .interest-option {
+    width: 143px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 12px;
+  }
+  
+  .interest-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  p {
+    position: absolute;
+    width: 315px;
+    height: 20px;
+    left: calc(50% - 315px/2);
+    top: 559px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FF0000;
+  }
+  
+  .next-button {
+    position: absolute;
+    width: 325px;
+    height: 56px;
+    left: calc(50% - 325px/2);
+    top: 660px;
+    background: #FFB933;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+  }
+  

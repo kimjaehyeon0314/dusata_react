@@ -1,0 +1,105 @@
+/* src/components/SurveyLogin.css */
+.survey-login {
+  position: relative;
+  width: 375px;
+  height: 812px;
+  background: #FFFFFF;
+}
+
+.survey-login-background {
+  position: absolute;
+  width: 472px;
+  height: 354px;
+  left: -39px;
+  top: -32px;
+  background-size: cover;
+}
+
+.phone-input-container {
+  position: absolute;
+  width: 300px;
+  height: 56px;
+  left: calc(50% - 320px/2);
+  top: 247px;
+  background: #FFFFFF;
+  border: 3px solid #FFB431;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.phone-input-container span {
+  font-family: 'Inter';
+  font-size: 14px;
+  color: #a5a5a5;
+}
+
+.phone-input-container input {
+  width: 90%;
+  border: none;
+  outline: none;
+  font-family: 'Inter';
+  font-size: 15px;
+  color: #000000;
+}
+
+.send-code-button {
+  position: absolute;
+  width: 182px;
+  height: 52px;
+  left: calc(50% - 91px);
+  top: 380px;
+  background: #FFB933;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-size: 25px;
+  font-weight: 1000; 
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.code-input-container {
+  position: absolute;
+  width: 300px;
+  height: 56px;
+  left: calc(50% - 320px/2);
+  top: 503px;
+  background: #FFFFFF;
+  border: 1px solid #FFB933;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.survey-login .code-input-container input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-family: 'Inter';
+  font-size: 15px;
+  color: #000000;
+}
+
+.survey-login .verify-code-button {
+  position: absolute;
+  width: 182px;
+  height: 52px;
+  left: calc(50% - 91px);
+  top: 604px;
+  background: #FFB933;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-size: 25px;
+  font-weight: 1000; 
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

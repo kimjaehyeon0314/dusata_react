@@ -1,0 +1,97 @@
+/* src/components/SurveyFace.css */
+.survey-face {
+
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+  }
+  
+  .back-arrow {
+    position: absolute;
+    width: 12px; /* 크기를 줄임 */
+    height: 12px; /* 크기를 줄임 */
+    left: 20px;
+    top: 62px;
+    cursor: pointer;
+  }
+  
+  .progress-bar {
+    position: absolute;
+    width: 180px;
+    height: 8px;
+    left: calc(50% - 180px/2 - 0.5px);
+    top: 62px;
+    background: #FFE9F1;
+    border-radius: 50px;
+  }
+  
+  .survey-face .progress {
+    position: absolute;
+    width: 160px;
+    height: 8px;
+    left: calc(50% - 80px/2 - 50.5px);
+    top: 0;
+    background: #FFB933;
+    border-radius: 50px;
+  }
+  
+  .survey-face h1 {
+    position: absolute;
+    width: 280px;
+    height: 42px;
+    left: calc(50% - 266px/2 - 0.5px);
+    top: 120px;
+    font-family: 'Ownglyph meetme';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .face-container {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: calc(50% - 300px/2); /* 중앙 정렬 */
+    top: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .face-option {
+    width: 80px;
+    height: 80px;
+    margin-bottom: -40px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .face-image {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .next-button {
+    position: absolute;
+    width: 325px;
+    height: 56px;
+    left: calc(50% - 325px/2);
+    top: 660px;
+    background: #FFB933;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+  }
+  

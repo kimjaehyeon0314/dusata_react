@@ -1,0 +1,68 @@
+/* src/components/StartScreen.css */
+.start-screen {
+  position: relative;
+  width: 375px;
+  height: 812px;
+  background: #FFFFFF;
+}
+
+.start-screen-1 {
+  position: absolute;
+  width: 375px;
+  height: 712px;
+  left: 0;
+  top: 48px;
+  background-size: cover;
+}
+
+.start-screen-2 {
+  position: absolute;
+  width: 330px;
+  height: 312px;
+  left: 29px;
+  top: 284px;
+  background-size: cover;
+}
+
+.start-survey-button {
+  position: absolute;
+  width: 160px;
+  height: 59px;
+  left: 74px;
+  top: 358px;
+  font-family: 'Ownglyph meetme';
+  font-size: 30px;
+  text-align: center;
+  color: #000000;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.login-button {
+  position: absolute;
+  width: 160px;
+  height: 59px;
+  left: 156px;
+  top: 506px;
+  font-family: 'Ownglyph meetme';
+  font-size: 25px;
+  text-align: center;
+  color: #000000;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.beta-info {
+  position: absolute;
+  width: 193px;
+  height: 72px;
+  left: 91px;
+  top: 688px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  color: #000000;
+}

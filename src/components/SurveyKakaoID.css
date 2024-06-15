@@ -1,0 +1,112 @@
+/* src/components/SurveyKakaoID.css */
+.survey-kakaoid {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+  }
+  
+  .back-arrow {
+    position: absolute;
+    width: 12px; /* 크기를 1/4로 줄임 */
+    height: 12px; /* 크기를 1/4로 줄임 */
+    left: 20px;
+    top: 62px; /* progress-bar의 높이와 맞춤 */
+    cursor: pointer;
+  }
+  
+  .progress-bar {
+    position: absolute;
+    width: 180px;
+    height: 8px;
+    left: calc(50% - 180px/2 - 0.5px);
+    top: 62px;
+    background: #FFE9F1;
+    border-radius: 50px;
+  }
+  
+  .survey-kakaoid .progress {
+    position: absolute;
+    width: 40px;
+    height: 8px;
+    left: calc(50% - 40px/2 - 70.5px);
+    top: 0;
+    background: #FFB933;
+    border-radius: 50px;
+  }
+  
+  h1 {
+    position: absolute;
+    width: 266px;
+    height: 84px;
+    left: calc(50% - 266px/2 - 0.5px);
+    top: 120px;
+    font-family: 'Ownglyph meetme';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .input-container {
+    position: absolute;
+    width: 325px;
+    height: 56px;
+    left: calc(50% - 325px/2);
+    top: 259px;
+    background: #FFFFFF;
+    border: 1px solid #FFB933;
+    border-radius: 50px;
+  }
+  
+  .input-container input {
+    position: absolute;
+    width: calc(100% - 60px);
+    height: 20px;
+    left: 30px;
+    top: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    border: none;
+    outline: none;
+  }
+  
+  p {
+    position: absolute;
+    width: 259px;
+    height: 20px;
+    left: 55px;
+    top: 478px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FF0000;
+  }
+  
+  .next-button {
+    position: absolute;
+    width: 325px;
+    height: 56px;
+    left: calc(50% - 325px/2);
+    top: 660px;
+    background: #FFB933;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+  }
+  

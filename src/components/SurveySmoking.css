@@ -1,0 +1,104 @@
+/* src/components/SurveySmoking.css */
+.survey-smoking {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+  }
+  
+  .back-arrow {
+    position: absolute;
+    width: 12px; /* 크기를 1/4로 줄임 */
+    height: 12px; /* 크기를 1/4로 줄임 */
+    left: 20px;
+    top: 62px;
+    cursor: pointer;
+  }
+  
+  .progress-bar {
+    position: absolute;
+    width: 180px;
+    height: 8px;
+    left: calc(50% - 180px/2 - 0.5px);
+    top: 62px;
+    background: #FFE9F1;
+    border-radius: 50px;
+  }
+  
+  .survey-smoking .progress {
+    position: absolute;
+    width: 140px;
+    height: 8px;
+    left: calc(50% - 100px/2 - 40.5px);
+    top: 0;
+    background: #FFB933;
+    border-radius: 50px;
+  }
+  
+  h1 {
+    position: absolute;
+    width: 313px;
+    height: 42px;
+    left: calc(50% - 313px/2 + 13px);
+    top: 116px;
+    font-family: 'Ownglyph meetme';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .button-container {
+    position: absolute;
+    width: 325px;
+    height: 200px;
+    left: calc(50% - 325px/2);
+    top: 259px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  
+  .button-container button {
+    width: 80%;
+    height: 200px;
+    background: #F0E4E6; /* 선택되지 않은 버튼의 배경색 */
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000; /* 선택되지 않은 버튼의 글자색 */
+    border: none;
+    cursor: pointer;
+    margin: 0 auto; /* 버튼을 가로 중앙에 배치 */
+  }
+  
+  .button-container button.selected {
+    background: #FFB933; /* 선택된 버튼의 배경색 */
+    color: #FFFFFF; /* 선택된 버튼의 글자색 */
+  }
+  
+  .next-button {
+    position: absolute;
+    width: 325px;
+    height: 56px;
+    left: calc(50% - 325px/2);
+    top: 660px;
+    background: #FFB933;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+  }
+  

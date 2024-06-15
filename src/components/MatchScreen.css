@@ -1,0 +1,79 @@
+.match-screen {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+}
+
+.match-header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.match-container {
+    position: absolute;
+    width: 100%;
+    top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.match-item {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.match-paper {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.match-face {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: -20px;
+    left: -20px;
+    z-index: 2;
+}
+
+.match-text {
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    top: 50px;
+    left: 30px;
+    z-index: 3;
+    font-family: 'Ownglyph meetme';
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+}
+
+.cancel-button {
+    position: absolute;
+    width: 325px;
+    height: 56px;
+    left: calc(50% - 325px/2);
+    top: 650px;
+    background: #FFB933;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
